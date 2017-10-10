@@ -29,8 +29,8 @@ The goals / steps of this project are the following:
 ### Data Set Summary & Exploration
 
 
-* The size of training set is = ##34799
-* The size of the validation set is = ##4410 
+* The size of training set is = *34799*
+* The size of the validation set is = _4410_ 
 * The size of test set is = 12630
 * The shape of a traffic sign image is = (32, 32, 3)
 * The number of unique classes/labels in the data set is = 43
