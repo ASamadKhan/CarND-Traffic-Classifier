@@ -37,7 +37,7 @@ The goals / steps of this project are the following:
 * The shape of a traffic sign image is = **(32, 32, 3)**
 * The number of unique classes/labels in the data set is = **43**
 
-#### Include an exploratory visualization of the dataset.
+### Include an exploratory visualization of the dataset.
 
 These bar chart shows class distributio in traiing validation and test data sets. We can easily see the distributions are almost same in all of them.
 
