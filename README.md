@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization1.jpg "Visualization1"
 [image2]: ./examples/visualization2.jpg "Visualization2"
 [image3]: ./examples/visualization3.jpg "Visualization3"
-[image4]: ./examples/grayscale.jpg "Grayscaling"
+[image4]: ./examples/classes.jpg "classes"
 [image5]: ./examples/random_noise.jpg "Random Noise"
 [image6]: ./examples/placeholder.png "Traffic Sign 1"
 [image7]: ./examples/placeholder.png "Traffic Sign 2"
@@ -39,11 +39,15 @@ The goals / steps of this project are the following:
 
 ### Include an exploratory visualization of the dataset.
 
-These bar chart shows class distributio in traiing validation and test data sets. We can easily see the distributions are almost same in all of them.
+* These bar chart shows class distributio in traiing validation and test data sets. We can easily see the distributions are almost same in all of them.
 
 ![Test Data][image1]
 ![alt text][image2]
 ![alt text][image3]
+
+* Calasses with captioning is generated in the below diagram.
+
+![alt text][image4]
 
 ###Design and Test a Model Architecture
 
