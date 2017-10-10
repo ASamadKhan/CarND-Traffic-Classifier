@@ -41,7 +41,7 @@ The goals / steps of this project are the following:
 
 These bar chart shows class distributio in traiing validation and test data sets. We can easily see the distributions are almost same in all of them.
 
-![Test Data][image1,"Test Data"]
+![Test Data][image1 "Test Data"]
 ![alt text][image2]
 ![alt text][image3]
 
