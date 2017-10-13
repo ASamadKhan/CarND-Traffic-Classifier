@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/classes.jpg "classes"
 [image5]: ./examples/grey.jpg "greyclasses"
 [image6]: ./examples/8.jpg "Test"
-[image7]: ./examples/8O.jpg "Test"
+[image7]: ./examples/8O.jpg.jpg "Test"
 [image8]: ./examples/3.jpg "Test"
 [image9]: ./examples/3O.jpg "Test"
 [image10]: ./examples/1.jpg "Test"
