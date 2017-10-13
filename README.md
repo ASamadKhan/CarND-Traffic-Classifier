@@ -145,12 +145,12 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 8 of the 8 traffic signs, which gives an accuracy of 100%. This may be due to the clear signs in these images.
 
-####3. 
-
+#### 3. 
+### We are going to discuss the softmax probailities of only 3 examples out of 8  
 For this image 
 ![alt text][image9] <br />
 our model predicted pedestrains with high probability (0.9) while General Caution which is little closer sign is predicted with probability .019.  
-,   ,   ,
+
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -165,7 +165,7 @@ our model predicted pedestrains with high probability (0.9) while General Cautio
 For this image 
 ![alt text][image13] <br />
 our model bicycles crossing  with high probability (0.997) while Beware of ice/snow	 which is little closer sign is predicted with probability .00237.  
-,   ,   ,
+
 
 
 
@@ -180,8 +180,8 @@ our model bicycles crossing  with high probability (0.997) while Beware of ice/s
 
 For this image 
 ![alt text][image15] <br />
-our model bicycles crossing  with high probability (0.997) while Beware of ice/snow	 which is little closer sign is predicted with probability .00237.  
-,   ,   ,
+our model Priority road  with high probability (0.997) 
+
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
