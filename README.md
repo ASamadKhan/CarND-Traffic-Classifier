@@ -111,22 +111,22 @@ My final model results were:
 
 I found 8 images of traffic signs on the the web.
 
-![alt text][image6] 
-![alt text][image7] 
-![alt text][image8] 
-![alt text][image9] 
-![alt text][image10] 
-![alt text][image11] 
-![alt text][image12] 
-![alt text][image13] 
-![alt text][image14] 
-![alt text][image15] 
-![alt text][image16] 
-![alt text][image17] 
-![alt text][image18] 
-![alt text][image19] 
-![alt text][image20] 
-![alt text][image21] 
+![alt text][image6] <br />
+![alt text][image7] <br />
+![alt text][image8] <br />
+![alt text][image9] <br />
+![alt text][image10] <br />
+![alt text][image11] <br />
+![alt text][image12] <br />
+![alt text][image13] <br />
+![alt text][image14] <br />
+![alt text][image15] <br />
+![alt text][image16] <br />
+![alt text][image17] <br />
+![alt text][image18] <br />
+![alt text][image19] <br />
+![alt text][image20] <br />
+![alt text][image21] <br />
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
