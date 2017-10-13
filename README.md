@@ -145,22 +145,51 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 8 of the 8 traffic signs, which gives an accuracy of 100%. This may be due to the clear signs in these images.
 
-####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+####3. 
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
-
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For this image 
+![alt text][image9] <br />
+our model predicted pedestrains with high probability (0.9) while General Caution which is little closer sign is predicted with probability .019.  
+,   ,   ,
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| 9.80994523e-01      			| pedestrians  									| 
+| 1.90053992e-02    				| General caution										|
+| 1.16753204e-10				| Right-of-way at the next intersection											|
+| .76334190e-11	      			| Road narrows on the right					 				|
+| 9.66769416e-13			    | Traffic signals      							|
 
 
-For the second image ... 
+
+For this image 
+![alt text][image13] <br />
+our model bicycles crossing  with high probability (0.997) while Beware of ice/snow	 which is little closer sign is predicted with probability .00237.  
+,   ,   ,
+
+
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 9.97115135e-01      			| bicycles crossing  									| 
+| 2.37373519e-03   				| Beware of ice/snow									|
+| 2.72262609e-04				| Children crossing										|
+| 1.29659209e-04      			| Road narrows on the right				 				|
+| 7.18888477e-05		    | Slippery road     							| 
+
+
+For this image 
+![alt text][image15] <br />
+our model bicycles crossing  with high probability (0.997) while Beware of ice/snow	 which is little closer sign is predicted with probability .00237.  
+,   ,   ,
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 9.99835849e-01    			| Priority road 									| 
+| 1.63932928e-04  				| Roundabout mandatory									|
+| 9.56486303e-08				| End of no passing by vehicles over	3.5 metric tons								|
+| 7.05458518e-08      			|Right-of-way at the next intersection			 				|
+| 3.18835021e-08		    | End of no passing     							| 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
