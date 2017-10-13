@@ -18,11 +18,7 @@ The goals / steps of this project are the following:
 [image3]: ./examples/visualization3.jpg "Visualization3"
 [image4]: ./examples/classes.jpg "classes"
 [image5]: ./examples/grey.jpg "greyclasses"
-[image6]: ./examples/placeholder.png "Traffic Sign 1"
-[image7]: ./examples/placeholder.png "Traffic Sign 2"
-[image8]: ./examples/placeholder.png "Traffic Sign 3"
-[image9]: ./examples/placeholder.png "Traffic Sign 4"
-[image10]: ./examples/placeholder.png "Traffic Sign 5"
+[image6]: ./examples/test.jpg "Test"
 
 ## Rubric Points
 
@@ -95,16 +91,14 @@ My final model results were:
 * validation set accuracy of **92.5%** 
 * test set accuracy of **90** 
 
-###Test a Model on New Images
+### Test a Model on New Images
 
 ####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+I found 8 images of traffic signs on the the web.
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image6] 
 
-The first image might be difficult to classify because ...
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
