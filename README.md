@@ -18,8 +18,22 @@ The goals / steps of this project are the following:
 [image3]: ./examples/visualization3.jpg "Visualization3"
 [image4]: ./examples/classes.jpg "classes"
 [image5]: ./examples/grey.jpg "greyclasses"
-[image6]: ./examples/test.jpg "Test"
-
+[image6]: ./examples/8.jpg "Test"
+[image7]: ./examples/8O.jpg "Test"
+[image8]: ./examples/3.jpg "Test"
+[image9]: ./examples/3O.jpg "Test"
+[image10]: ./examples/1.jpg "Test"
+[image11]: ./examples/1O.jpg "Test"
+[image12]: ./examples/2.jpg "Test"
+[image13]: ./examples/2O.jpg "Test"
+[image14]: ./examples/4.jpg "Test"
+[image15]: ./examples/4O.jpg "Test"
+[image16]: ./examples/7.jpg "Test"
+[image17]: ./examples/7O.jpg "Test"
+[image18]: ./examples/5.jpg "Test"
+[image19]: ./examples/5O.jpg "Test"
+[image20]: ./examples/6.jpg "Test"
+[image21]: ./examples/6O.jpg "Test"
 ## Rubric Points
 
 ---
@@ -98,7 +112,21 @@ My final model results were:
 I found 8 images of traffic signs on the the web.
 
 ![alt text][image6] 
-
+![alt text][image7] 
+![alt text][image8] 
+![alt text][image9] 
+![alt text][image10] 
+![alt text][image11] 
+![alt text][image12] 
+![alt text][image13] 
+![alt text][image14] 
+![alt text][image15] 
+![alt text][image16] 
+![alt text][image17] 
+![alt text][image18] 
+![alt text][image19] 
+![alt text][image20] 
+![alt text][image21] 
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
