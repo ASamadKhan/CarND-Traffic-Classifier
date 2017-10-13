@@ -50,7 +50,7 @@ The goals / steps of this project are the following:
 ![alt text][image4]
 
 ### Design and Test a Model Architecture
-
+### 1.
 * As a first step, I decided to convert the images to grayscale using cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) function
 
 * In the 2nd step of preprocessing I normalized the images using  cv2.normalize(image,dest ,alpha=0, beta=1, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_32F)
@@ -60,13 +60,13 @@ after applying the above 2 prepeocessing steps the images are changed in the bel
 
 
 
-####2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
+#### 2. 
 
 My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
+| Input         		| 32x32x1 Gray image   							| 
 | Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
