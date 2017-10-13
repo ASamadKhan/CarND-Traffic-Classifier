@@ -93,7 +93,7 @@ My final model consisted of the following layers:
 
 The output from the Softmax are 43 class probabilities.   
 
-####3. 
+#### 3. 
 
 To train the model, I used an admamoptimizer with learnig rate of 0.001. The number of epoches were 20 and the batch size is 128
 
