@@ -128,20 +128,22 @@ I found 8 images of traffic signs on the the web.
 ![alt text][image20] <br />
 ![alt text][image21] <br />
 
-####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+####2. 
 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Yield      		| Yield  									| 
+| Pedestrians     			| Pedestrians										|
+| Vehicles over 3.5 metric tons prohibited					| Vehicles over 3.5 metric tons prohibited										|
+| Bicycles crossing	      		| Bicycles crossing					 				|
+| Priority road		| Priority road      							|
+| Turn right ahead		| Turn right ahead      							|
+| Road work	| Road work    							|
+| Stop	| Stop      							|
 
-
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 8 of the 8 traffic signs, which gives an accuracy of 100%. This may be due to the clear signs in these images.
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
