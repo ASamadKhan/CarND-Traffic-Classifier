@@ -107,7 +107,7 @@ My final model results were:
 
 ### Test a Model on New Images
 
-####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+#### 1. 
 
 I found 8 images of traffic signs on the the web.
 
@@ -128,7 +128,7 @@ I found 8 images of traffic signs on the the web.
 ![alt text][image20] <br />
 ![alt text][image21] <br />
 
-####2. 
+#### 2. 
 
 Here are the results of the prediction:
 
