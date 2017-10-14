@@ -61,11 +61,15 @@ The goals / steps of this project are the following:
 
 ### Design and Test a Model Architecture
 ### 1.
-* As a first step, I decided to convert the images to grayscale using cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) function
+* As a first step, I decided to convert the images to grayscale using cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) function. This function convert colored image into gray image.
 
-* In the 2nd step of preprocessing I normalized the images using  cv2.normalize(image,dest ,alpha=0, beta=1, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_32F)
-after applying the above 2 prepeocessing steps the images are changed in the below figure 
+*
+* In the 2nd step of preprocessing I normalized the images using  followig code.
+X_train = (train_gray-128)/128   <br />
+X_valid = (valid_gray-128)/128  <br />
+X_test = (test_gray-128)/128 <br />
 
+since the gray scale values are from 0-255, so we subtract 128 from each pixel and then dividing it by 128. This process will convert all pixel values from -1 to 1.
 ![alt text][image5]
 
 
@@ -84,6 +88,7 @@ My final model consisted of the following layers:
 | RELU					|												|
 | Max pooling	      	| 2x2 ksize, 2x2 stride,  outputs 5x5x16 				|
 | Fullyconnected	layer_0	| The feature space is falttend with first layer has 400 neurons|
+| dropout	| dropout with keep_prop=0.6 is applied to reduce overfittting |
 | Fullyconnected	layer_1	| 400x120 this layer has 120 neurons|
 | RELU					|												|
 | Fullyconnected	layer_2	| 120x84 this layer has 84 neurons|
@@ -102,8 +107,8 @@ I first tried the lenet architecture with colores images but the test accuracy a
 
 My final model results were:
 * training set accuracy of **99%**
-* validation set accuracy of **92.5%** 
-* test set accuracy of **90** 
+* validation set accuracy of **95%** 
+* test set accuracy of **94%** 
 
 ### Test a Model on New Images
 
