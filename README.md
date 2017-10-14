@@ -65,9 +65,9 @@ The goals / steps of this project are the following:
 
 *
 * In the 2nd step of preprocessing I normalized the images using  followig code. <br />
- <center> X_train = (train_gray-128)/128  </center> <br />
-<center>X_valid = (valid_gray-128)/128 </center> <br />
-<center>X_test = (test_gray-128)/128 </center> <br />
+<p align = "center"> X_train = (train_gray-128)/128  </p> <br />
+<p align = "center"> X_valid = (valid_gray-128)/128 </p>  <br />
+<p align = "center"> X_test = (test_gray-128)/128 </p>  <br /> 
 
 since the gray scale values are from 0-255, so we subtract 128 from each pixel and then dividing it by 128. This process will convert all pixel values from -1 to 1.
 ![alt text][image5]
