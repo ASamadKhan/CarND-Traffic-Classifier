@@ -147,8 +147,8 @@ Here are the results of the prediction:
 | Road work	| Road work    							|
 | Stop	| Stop      							|
 
-The model was able to correctly guess 8 of the 8 traffic signs, which gives an accuracy of 100%. 
-**The images are very straight forward with no  rotation, scaling and cropping **
+The model was able to correctly guess 8 of the 8 traffic signs, which gives an accuracy of 100%. <br />
+**The images are very straight forward with no  rotation, scaling and cropping**
 
 #### 3. 
 ### We are going to discuss the softmax probailities of only 3 examples out of 8  
